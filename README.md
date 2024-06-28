@@ -14,3 +14,33 @@
     * Se a nota for maior do que 6, o aluno foi aprovado. Caso contrário, foi reprovado.
 11. Defina um array associativo que representa uma conta bancária (com titular e saldo) e exiba suas informações na tela.
 12.  Crie um array contendo nomes de familiares seus e após sua criação adicione mais elementos ao array. 
+
+## Desafio
+ - implemente um código, que vai ser parecido com um banco.
+### Exemplo de tela:
+````
+********************
+Titular: nomeCliente
+Saldo atual: R$ 0000,00
+*********************
+1 - Consultar saldo atual
+2 - Depositar
+3 - Sacar
+4 - Sair
+````
+### Objetivos: 
+1. #### Consultar Saldo Atual:
+    * O cliente deve ser capaz de verificar o saldo atual da conta corrente.
+2. #### Depositar:
+    * O cliente deve poder depositar dinheiro na conta.
+      * Implemente uma função que solicita o valor a ser depositado e adiciona esse valor ao saldo atual.
+    * Pergunte ao cliente se ele realmente deseja depositar o valor informado na conta X.
+    * Após confirmar o depósito, mostre o novo saldo da conta.
+    * Pergunte se o cliente deseja fazer mais alguma operação.
+3. #### Sacar:
+    * Implemente uma função que permite ao cliente sacar dinheiro da conta.
+    * Solicite o valor a ser sacado e verifique se há saldo suficiente.
+    * Se houver saldo, subtraia o valor do saldo atual e mostre o novo saldo.
+    * Caso contrário, informe que não há saldo suficiente.
+4. #### Sair:
+    * Implemente uma opção para o cliente sair do programa.
